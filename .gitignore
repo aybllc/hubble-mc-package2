@@ -27,3 +27,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 .*.tmp
+
+# Private templates (for Claude.ai artifacts only)
+.claude-artifact-template.md
