@@ -3,8 +3,8 @@ message: "If you use this dataset, please cite it as below."
 authors:
   - family-names: Martin
     given-names: Eric D.
-    email: eric.martin1@wsu.edu
-    affiliation: Washington State University, Vancouver
+    email: catch@aybllc.org
+    affiliation: All Your Baseline LLC
     orcid: "https://orcid.org/0009-0006-5944-1742"
 title: "Monte Carlo Calibrated Observer Tensors for Hubble Tension Resolution (Package 2)"
 version: 1.0.0

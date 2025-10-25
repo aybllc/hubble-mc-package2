@@ -3,8 +3,8 @@
 **Package 2: Full Resolution through MCMC-Calibrated Tensors**
 
 Eric D. Martin
-Washington State University, Vancouver
-eric.martin1@wsu.edu
+All Your Baseline LLC
+catch@aybllc.org
 
 Version 1.0.0 | October 11, 2025
 
@@ -231,8 +231,8 @@ Version 1.0.0 | October 11, 2025
 ## 12. CONTACT
 
 Eric D. Martin
-Washington State University, Vancouver
-eric.martin1@wsu.edu
+All Your Baseline LLC
+catch@aybllc.org
 
 For questions:
 - **Framework**: See docs/supplementary_methodology.md
