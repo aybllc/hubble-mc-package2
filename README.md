@@ -1,12 +1,20 @@
-# Monte Carlo Calibrated Observer Tensors for Hubble Tension Resolution
+# Full Resolution of the Hubble Tension through Monte Carlo Calibrated Observer Tensors
 
-**Package 2: Full Resolution through MCMC-Calibrated Tensors**
+**PREPRINT - Manuscript Foundation**
+
+**Status**: Ready for submission (arXiv, ApJ, MNRAS, or equivalent)
 
 Eric D. Martin
 All Your Baseline LLC
 catch@aybllc.org
 
-Version 1.0.0 | October 11, 2025
+Version 1.0.0 | October 2025
+
+---
+
+**Document Type**: Numbered manuscript outline with complete supporting data and code
+**Publication Type**: Preprint / Research Article
+**Subject**: Cosmology, Measurement Theory, Uncertainty Quantification
 
 ---
 
@@ -206,17 +214,21 @@ Version 1.0.0 | October 11, 2025
 ## 10. CITATION
 
 ```bibtex
-@dataset{martin2025package2,
+@article{martin2025hubble_mc,
   author       = {Martin, Eric D.},
-  title        = {Monte Carlo Calibrated Observer Tensors for
-                  Hubble Tension Resolution (Package 2)},
+  title        = {Full Resolution of the Hubble Tension through
+                  Monte Carlo Calibrated Observer Tensors},
   year         = 2025,
+  note         = {Preprint},
   publisher    = {Zenodo},
   version      = {1.0.0},
   doi          = {10.5281/zenodo.TBD},
   url          = {https://doi.org/10.5281/zenodo.TBD}
 }
 ```
+
+**For arXiv submission**: Use arXiv identifier once posted
+**For journal submission**: Update with journal reference upon acceptance
 
 ---
 

@@ -1,16 +1,18 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use this work, please cite it as below."
+type: article
 authors:
   - family-names: Martin
     given-names: Eric D.
     email: catch@aybllc.org
     affiliation: All Your Baseline LLC
     orcid: "https://orcid.org/0009-0006-5944-1742"
-title: "Monte Carlo Calibrated Observer Tensors for Hubble Tension Resolution (Package 2)"
+title: "Full Resolution of the Hubble Tension through Monte Carlo Calibrated Observer Tensors"
+abstract: "We present the complete resolution of the Hubble tension through Monte Carlo calibration of observer domain tensors. Building on the N/U algebra framework, we extract observer tensors directly from MCMC posterior chains and apply iterative refinement to achieve full concordance between early-universe (CMB) and late-universe (distance ladder) H₀ measurements. Our method increases the epistemic distance from 1.003 to 1.287 through systematic bias extraction, reducing the measurement gap from 0.48 km/s/Mpc to 0.00 km/s/Mpc. Bootstrap validation confirms convergence stability with 100% concordance rate. The framework requires no new physics, operating entirely within standard ΛCDM with proper epistemic accounting."
 version: 1.0.0
-date-released: 2025-10-11
-license: MIT
-repository-code: "https://github.com/edmartin/hubble-montecarlo"
+date-released: 2025-10-25
+license: CC-BY-4.0
+repository-code: "https://github.com/aybllc/hubble-mc-package2"
 keywords:
   - cosmology
   - Hubble tension
@@ -18,3 +20,7 @@ keywords:
   - uncertainty quantification
   - N/U algebra
   - MCMC calibration
+  - Monte Carlo methods
+  - preprint
+  - ΛCDM
+  - epistemic uncertainty
