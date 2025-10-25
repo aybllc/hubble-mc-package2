@@ -1,0 +1,42 @@
+{
+  "iteration": 3,
+  "delta_T": 0.6254790314389393,
+  "early_universe": {
+    "H0_n": 67.268,
+    "H0_u": 0.46,
+    "T_obs": {
+      "P_m": 0.7531425595187875,
+      "zero_t": -0.0024442906033639972,
+      "zero_m": -0.005075769451475227,
+      "zero_a": 0.0012221453016819986
+    }
+  },
+  "late_universe": {
+    "H0_n": 73.04,
+    "H0_u": 1.04,
+    "T_obs": {
+      "P_m": 0.7798831648921863,
+      "zero_t": -4.233565979371488e-05,
+      "zero_m": -0.02938347942463069,
+      "zero_a": 0.499619626325692
+    }
+  },
+  "merged": {
+    "H0_n": 70.154,
+    "H0_u": 2.5551324847327805,
+    "interval": [
+      67.59886751526722,
+      72.70913248473278
+    ],
+    "disagreement": 5.772000000000006,
+    "base_uncertainty": 0.75,
+    "tensor_expansion": 1.8051324847327808,
+    "expansion_ratio": 3.4068433129770406
+  },
+  "concordance": {
+    "early_contained": false,
+    "late_contained": false,
+    "full_concordance": false,
+    "gap_km_s_Mpc": 0.0
+  }
+}

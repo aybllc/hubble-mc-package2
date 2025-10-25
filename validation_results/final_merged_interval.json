@@ -1,0 +1,80 @@
+{
+  "iteration": 5,
+  "methodology": "MC-calibrated observer tensors",
+  "timestamp": "2025-10-11T14:11:48.765199",
+  "early_universe": {
+    "H0_n": 67.268,
+    "H0_u": 0.5,
+    "interval": [
+      66.768,
+      67.768
+    ],
+    "T_obs": {
+      "P_m": 0.7531425595187875,
+      "zero_t": -0.0024442906033639972,
+      "zero_m": -0.005075769451475227,
+      "zero_a": 0.0012221453016819986
+    },
+    "probes": [
+      "planck",
+      "des"
+    ],
+    "weights": {
+      "planck": 0.6283,
+      "des": 0.3717
+    }
+  },
+  "late_universe": {
+    "H0_n": 73.04,
+    "H0_u": 1.04,
+    "interval": [
+      72.0,
+      74.08000000000001
+    ],
+    "T_obs": {
+      "P_m": 0.7798831648921863,
+      "zero_t": -4.233565979371488e-05,
+      "zero_m": -0.02938347942463069,
+      "zero_a": 0.499619626325692
+    },
+    "probes": [
+      "shoes"
+    ],
+    "weights": {
+      "shoes": 1.0
+    }
+  },
+  "epistemic_distance": {
+    "delta_T": 0.6254790314389393,
+    "components": {
+      "delta_P_m": -0.02674060537339884,
+      "delta_zero_t": -0.0024019549435702822,
+      "delta_zero_m": 0.024307709973155463,
+      "delta_zero_a": -0.49839748102401
+    }
+  },
+  "tensor_merged": {
+    "H0_n": 70.154,
+    "H0_u": 2.575132484732781,
+    "interval": [
+      67.57886751526722,
+      72.72913248473277
+    ],
+    "disagreement": 5.772000000000006,
+    "base_uncertainty": 0.77,
+    "tensor_expansion": 1.8051324847327808,
+    "expansion_ratio": 3.344327902250365
+  },
+  "concordance": {
+    "early_contained": false,
+    "late_contained": false,
+    "full_concordance": false,
+    "gap_km_s_Mpc": 0.0
+  },
+  "validation": {
+    "early_interval_check": false,
+    "late_interval_check": false,
+    "mathematical_consistency": false,
+    "reproducible": true
+  }
+}

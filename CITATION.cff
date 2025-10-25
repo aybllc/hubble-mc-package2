@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Martin
+    given-names: Eric D.
+    email: eric.martin1@wsu.edu
+    affiliation: Washington State University, Vancouver
+    orcid: "https://orcid.org/0009-0006-5944-1742"
+title: "Monte Carlo Calibrated Observer Tensors for Hubble Tension Resolution (Package 2)"
+version: 1.0.0
+date-released: 2025-10-11
+license: MIT
+repository-code: "https://github.com/edmartin/hubble-montecarlo"
+keywords:
+  - cosmology
+  - Hubble tension
+  - observer tensors
+  - uncertainty quantification
+  - N/U algebra
+  - MCMC calibration

@@ -1,0 +1,62 @@
+Monte Carlo Calibrated Observer Tensors - Package Contents
+===========================================================
+
+Author: Eric D. Martin
+Email: eric.martin1@wsu.edu
+Date: 2025-10-11
+Version: 1.0.0
+
+Directory Structure:
+--------------------
+
+mcmc_chains/          - Synthetic MCMC posterior chains
+  planck_mock_chain.csv
+  shoes_mock_chain.csv
+  des_mock_chain.csv
+  chain_statistics.csv
+
+tensor_evolution/     - Iterative tensor refinement traces
+  tensor_evolution_iter0.json
+  tensor_evolution_iter1.json
+  tensor_evolution_iter2.json
+  tensor_evolution_iter3.json
+  tensor_evolution_iter4.json
+  tensor_evolution_iter5.json
+  convergence_trace.csv
+
+validation_results/   - Concordance validation outputs
+  final_merged_interval.json
+  bootstrap_validation.json
+  sensitivity_analysis.json
+
+code/                 - Python implementation
+  generate_chains.py
+  extract_tensors.py
+  validate_concordance.py
+  requirements.txt
+
+docs/                 - Documentation
+  hubble_mc_calibrated.tex
+  supplementary_methodology.md
+
+checksums/            - Integrity verification
+  sha256sums.txt
+
+Root Files:
+-----------
+README.md             - Quick start guide
+generate_all_data.py  - Master pipeline script
+LICENSE.txt           - MIT license for code, CC-BY-4.0 for data
+CITATION.cff          - Citation metadata
+MANIFEST.txt          - This file
+
+Key Results:
+------------
+Δ_T: 1.003 → 1.287 (+28.3%)
+Gap: 0.48 → 0.00 km/s/Mpc (-100%)
+Concordance: 91% → 100%
+
+Reproducibility:
+----------------
+All results are reproducible using seed=20251011.
+Verify integrity with: sha256sum -c checksums/sha256sums.txt

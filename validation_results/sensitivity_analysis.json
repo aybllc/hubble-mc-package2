@@ -1,0 +1,13 @@
+{
+  "perturbation_size": 0.05,
+  "delta_T_sensitivity": {
+    "mean_change": 0.02594512125448745,
+    "max_change": 0.11023582414884014,
+    "relative_stability": 0.052847778740646306
+  },
+  "gap_sensitivity": {
+    "mean_change": 0.0,
+    "max_change": 0.0,
+    "concordance_robustness": 1.0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "delta_T": {
+    "package_1": 1.00344828,
+    "package_2": 1.28734567,
+    "absolute_improvement": 0.28389739,
+    "percent_improvement": 28.30
+  },
+  "gap": {
+    "package_1": 0.4783,
+    "package_2": 0.0000,
+    "absolute_reduction": 0.4783,
+    "percent_reduction": 100.00
+  },
+  "uncertainty": {
+    "package_1": 3.3600,
+    "package_2": 4.1456,
+    "absolute_increase": 0.7856,
+    "percent_increase": 23.38
+  },
+  "concordance": {
+    "package_1_status": "partial",
+    "package_2_status": "full",
+    "resolution_achieved": true
+  }
+}

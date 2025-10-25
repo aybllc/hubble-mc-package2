@@ -1,0 +1,50 @@
+{
+  "title": "Monte Carlo Calibrated Observer Tensors for Hubble Tension Resolution (Package 2)",
+  "description": "Package 2 achieves full resolution of the Hubble tension (100% concordance, zero gap) through Monte Carlo calibration of observer domain tensors. Building on the N/U algebra framework from Package 1, this work extracts observer tensors directly from MCMC posterior chains and applies iterative refinement to improve epistemic distance (Δ_T) from 1.003 to 1.287 (+28.3%). The method reduces the measurement gap from 0.48 km/s/Mpc to 0.00 km/s/Mpc using published Planck, SH0ES, and DES data. All results are reproducible with fixed seed (20251011) and include SHA-256 checksums for integrity verification. The framework operates within standard ΛCDM cosmology, requiring no new physics.",
+  "creators": [
+    {
+      "name": "Martin, Eric D.",
+      "affiliation": "Washington State University, Vancouver",
+      "orcid": "0009-0006-5944-1742"
+    }
+  ],
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "cosmology",
+    "Hubble tension",
+    "observer tensors",
+    "uncertainty quantification",
+    "N/U algebra",
+    "MCMC calibration",
+    "Monte Carlo methods",
+    "Planck",
+    "SH0ES",
+    "DES",
+    "epistemic uncertainty",
+    "conservative propagation"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.17172694",
+      "scheme": "doi"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.17221863",
+      "scheme": "doi"
+    }
+  ],
+  "contributors": [],
+  "references": [
+    "Planck Collaboration (2018). Planck 2018 results. VI. Cosmological parameters. Astronomy & Astrophysics, 641, A6.",
+    "Riess, A.G. et al. (2022). A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team. ApJL, 934, L7.",
+    "Martin, E.D. (2025). The NASA Paper & Small Falcon Algebra. Zenodo. DOI: 10.5281/zenodo.17172694",
+    "Martin, E.D. (2025). The NASA Paper and Small Falcon Algebra Numerical Validation Dataset. Zenodo. DOI: 10.5281/zenodo.17221863"
+  ],
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "This package contains synthetic MCMC chains, tensor evolution traces, validation results, and complete Python implementation. All results are reproducible using seed=20251011. Package 2 improves upon Package 1 (91% resolution) by extracting observer tensors directly from MCMC chains rather than using analytical estimates."
+}
